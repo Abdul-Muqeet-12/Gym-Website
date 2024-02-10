@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(./gym.jpg);
+  color: white;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: bolder;
+}
+.left {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  display: inline-block;
+}
+.mid {
+  display: block;
+  width: 45%;
+  margin: 25px auto;
+  border: 2px green;
+}
+.right {
+  position: absolute;
+  right: 22px;
+  top: 30px;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 35px 10px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(69, 68, 68);
+}
+.left img {
+  width: 80px;
+}
+.left div {
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 0px;
+}
+.btn {
+  margin: 0px 5px;
+  padding: 5px 9px;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(94, 92, 92);
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: rgb(58, 56, 56);
+}
+.container {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 75px 75px;
+  margin: 55px 177px;
+  width: 33%;
+}
+.form-group input {
+  font-family: "Protest Strike", sans-serif;
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 1px;
+  margin: 5px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 6px;
+  margin: 10px auto;
+  font-size: 16px;
+}
